@@ -1,0 +1,71 @@
+/*CSS do Infográfico - Métodos Ágeis e Mindset Ágil - 1ª parte */
+.fundo-metodosemindset{
+/* background-image: url("background-relogio.svg");
+background-repeat: repeat-y; */
+background-color: #eff3fe;
+}
+.principal-metodosemindset{
+position: relative;
+box-sizing: border-box;
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+width: 85%;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+.azul-metodos-ageis{
+background-color: #66a0c6;
+width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 7%;
+padding-top: 5%;
+}
+.titulo-primeiro-metodosemindset{
+font-family: heebo;
+color: #ffffff;
+}
+.paragrafo-metodosemindset{
+font-family: 'Segoe UI', Verdana, sans-serif;
+color: #ffffff;
+}
+.container-mais{
+width: 60px;
+position: absolute;
+/*  bottom: 50%;
+transform: translateY(50%);*/
+left: 50%;
+transform: translateX(50%); 
+top: 50%;
+transform: translateY(-50%);
+}
+.mais{
+left: 50%;
+transform: translateX(-50%); 
+}
+.img-fluid atto_image_button_text-bottom{
+transform: translateX(-50%);
+}
+.escuro-metodos-ageis{
+background-color: #2f2935;
+width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 7%;
+padding-top: 5%;
+}
+.titulo-segundo-metodosemindset{
+font-family: heebo;
+color: #ffffff;
+}
+.faixa-branca-metodosemindset{
+background-color: white;
+width: 100%;
+height: 1.7rem;
+position: relative;
+bottom: 50%;
+flex-direction: column;
+}
+.container-faixa-mais{
+position: relative;
+}
